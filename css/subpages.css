@@ -31,7 +31,7 @@
 ////////////////////////////////////////////// */
 html, body{
   font-family: MontserratRegular;
-  color: #ffffff;
+  color: #e8e8e8;
   margin:0;
   height: 100%;
   min-height: 100%;
@@ -56,7 +56,7 @@ video::-internal-media-controls-overlay-cast-button {
 }
 
 h1 {
-	color: #ffffff;
+	color: #e8e8e8;
 	font-family: MontserratRegular;
   font-size: 4.5vw;
 } @media only screen and (max-width: 1060px) {
@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-	color: #ffffff;
+	color: #e8e8e8;
 	font-family: MontserratLight;
   font-size: 1.5vw;
   line-height: 0;
@@ -82,7 +82,7 @@ h2 {
 }
 
 h3 {
-  color: #ffffff;
+  color: #e8e8e8;
 	font-family: MontserratRegular;
   font-size: 10vh;
   line-height: 1.2;
@@ -94,7 +94,7 @@ h3 {
 }
 
 h4 {
-  color: #ffffff;
+  color: #e8e8e8;
 	font-family: MontserratRegular;
   font-size: 6vh;
   line-height: 1.2;
@@ -107,7 +107,7 @@ h4 {
 }
 
 h6 {
-	color: #ffffff;
+	color: #e8e8e8;
 	font-family: MontserratMedium;
   font-size: .6vw;
 } @media only screen and (max-width: 1060px) {
@@ -145,7 +145,7 @@ p {
 #foot{
   background-color: #94ab9e;
   border-style: groove none none none;
-  border-color: #ffffff;
+  border-color: #e8e8e8;
   position: absolute;
   left: 0;
   width: 100vw;
@@ -216,8 +216,8 @@ p {
   position: absolute;
   left: 3vw;
   top: 0vw;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   width: 27vw;
   height: 21.5vw;
   z-index: 0;
@@ -245,8 +245,8 @@ p {
   position: absolute;
   left: 45vw;
   top: 9vw;
-  color: #ffffff;
-  border: 1px ridge #ffffff;
+  color: #e8e8e8;
+  border: 1px ridge #e8e8e8;
   width: 27vw;
   height: 12.5vw;
   z-index: 10;
@@ -274,7 +274,7 @@ p {
 
 .closebtn {
   float: right;
-  color: #ffffff;
+  color: #e8e8e8;
   font-size: 3vh;
   line-height: 2.2vh;
   cursor: pointer;
@@ -286,12 +286,12 @@ p {
 
 .closebtn:hover {
   background-color: #94ab9e;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 .closebtn_index {
   float: right;
-  color: #ffffff;
+  color: #e8e8e8;
   font-size: 1.5vw;
   line-height: 1.1vw;
   cursor: pointer;
@@ -319,11 +319,11 @@ p {
 
 .closebtn_index:hover {
   background-color: #94ab9e;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 hr.new1 {
-  border-top: .2px solid #ffffff;
+  border-top: .2px solid #e8e8e8;
 }
 
 .header_index {
@@ -361,7 +361,7 @@ hr.new1 {
   left: 52.25vw;
   z-index: 100;
   font-size: .9vw;
-  border: 1px solid #ffffff;
+  border: 1px solid #e8e8e8;
   background-color: #94ab9e;
   padding: .5vw .7vw 0vw .5vw;
 } @media only screen and (max-width: 1060px){
@@ -381,7 +381,7 @@ hr.new1 {
 }
 
 #nota {
-  background-color: #ffffff;
+  background-color: #e8e8e8;
   padding: .7vw;
   border-style:groove;
 }
@@ -442,7 +442,7 @@ hr.new1 {
   position: absolute;
   top: 1vw;
   left: 27vw;
-  border: 1px solid #ffffff;
+  border: 1px solid #e8e8e8;
 } @media only screen and (max-width: 1060px){
   #sketch-holder{
     top: 0vw;
@@ -459,7 +459,7 @@ hr.new1 {
   position: absolute;
   top: 4vw;
   left: 27vw;
-  /* border: 1px solid #ffffff; */
+  /* border: 1px solid #e8e8e8; */
   background-image: url(../assets/portada.jpg);
   background-size: cover;
   width: 23vw;
@@ -1046,7 +1046,7 @@ hr.new1 {
 
 .regresar1:hover {
   background-color: #94ab9e;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 .regresar2{
@@ -1072,7 +1072,7 @@ hr.new1 {
 
 .regresar2:hover {
   background-color: #94ab9e;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 .info_coleccion1{
@@ -1082,8 +1082,8 @@ hr.new1 {
   position: absolute;
   left: 51vh;
   top: 58vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   width: 62vh;
   height: 25vh;
   z-index: 50000 !important;
@@ -1120,8 +1120,8 @@ hr.new1 {
   position: absolute;
   top: 10vh;
   left: 10vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   height: 52.5vh;
   width: 69.5vh;
   z-index: 10;
@@ -1239,8 +1239,8 @@ hr.new1 {
   padding: 1.5vh;
   background-color: #94ab9e;
   position: absolute;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 10;
   font-size: 1.7vh;
   padding-bottom: 1vh;
@@ -1274,8 +1274,8 @@ hr.new1 {
   padding: 1.5vh;
   background-color: #94ab9e;
   position: absolute;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 5;
   font-size: 1.7vh;
   padding-bottom: 1vh;
@@ -1293,8 +1293,8 @@ hr.new1 {
   padding: 1.5vh;
   background-color: #94ab9e;
   position: absolute;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 0;
   font-size: 1.7vh;
   padding-bottom: 1vh;
@@ -1310,7 +1310,7 @@ hr.new1 {
   overflow: hidden;
   top: 57vh;
   left: 157vh;
-  /* border: 1px solid #ffffff; */
+  /* border: 1px solid #e8e8e8; */
   width: 67.3vh;
   height: 28vh;
   z-index: -5;
@@ -1339,8 +1339,8 @@ hr.new1 {
   position: absolute;
   left: 203vh;
   top: 10vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 0;
   padding: 1.5vh;
   font-size: 1.7vh;
@@ -1358,8 +1358,8 @@ hr.new1 {
   position: absolute;
   left: 187vh;
   top: 15vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 0;
   padding: 1.5vh;
   font-size: 1.7vh;
@@ -1408,8 +1408,8 @@ hr.new1 {
   position: absolute;
   left: 259vh;
   top: 10vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 0;
   padding: 1.5vh;
   font-size: 1.7vh;
@@ -1427,8 +1427,8 @@ hr.new1 {
   position: absolute;
   left: 295vh;
   top: 17.5vh;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
   z-index: 0;
   padding: 1.5vh;
   font-size: 1.7vh;

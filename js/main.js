@@ -41,11 +41,26 @@ function myFunction() {
 	const body = document.body;
 	if (creditos = 'inline-block'){
 		body.style.position = 'fixed';
+	} else {
+		body.style.position = 'relative';
 	}
 };
 
+function myFunctionClose() {
+	var creditos = document.getElementById('creditos').style.display = 'none';
+	document.getElementById('backlight').style.display = 'none';
+
+	const body = document.body;
+	if (creditos = 'none'){
+		body.style.position = 'relative';
+	} else {
+		body.style.position = 'fixed';
+	}
+};
+
+
 function myFunction2() {
-	var ffDisplay = document.getElementById('fashionfilm').style.display = 'inline-block';
+	document.getElementById('fashionfilm').style.display = 'inline-block';
 	document.getElementById('backlight2').style.display = 'inline-block';
 	document.getElementById('closebtn_fashionfilm').style.display = 'inline-block';
 
@@ -59,6 +74,18 @@ function myFunction2() {
 	var videoPosY = (windowHeight-videoHeight)/2;
 	document.getElementById("fashionfilm").style.top = videoPosY + "px";
 };
+
+function myFunction2Close(){
+	var ffDisplay2 = document.getElementById('fashionfilm').style.display='none';
+	document.getElementById('backlight2').style.display='none';
+
+	const body = document.body;
+	if (ffDisplay2 = 'none'){
+		body.style.position = 'relative';
+	} else {
+		body.style.position = 'fixed';
+	}
+}
 
 function myFunction3() {
 	document.getElementById('look2').style.zIndex = 10;
