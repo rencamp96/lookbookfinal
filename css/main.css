@@ -489,10 +489,11 @@ hr.new1 {
   #boton_fashionfilm{
     left: 6.5vw;
     top: 137vw;
-    right: 3vw;
+    right: auto;
     font-size: 2.5vw;
     padding: 0.4vw 6.5vw 0.4vw 6.5vw;
     border-width: .7vw;
+    max-width: 35vw;
   }
 }
 
@@ -1321,7 +1322,6 @@ hr.new1 {
   display: none;
   position: absolute;
   z-index: 50101;
-  top: 4.5vw;
   left: 19vw;
   width: 62vw;
   height: auto;
@@ -1331,14 +1331,12 @@ hr.new1 {
   #fashionfilm{
     left: 15vw;
     width: 70vw;
-    top: 10vh;
   }
 } @media only screen and (max-width: 600px) {
   #fashionfilm{
     position: fixed;
     left: 12vw;
     width: 76vw;
-    top: 12vw;
   }
 }
 

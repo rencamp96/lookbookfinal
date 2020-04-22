@@ -23,17 +23,41 @@ function init() {
 	if (window.innerWidth <= 600) {
 		document.getElementById('center').style.top = 10 + 'vw';
 	}
+
+	var windowHeight = window.innerHeight;
+	var videoHeight = document.getElementById("fashionfilm").offsetHeight;
+	console.log("window" + windowHeight);
+	console.log("video" + videoHeight);
+
+	var videoPosY = (windowHeight-videoHeight)/2;
+	document.getElementById("fashionfilm").style.top = videoPosY + "px";
+
 }
 
 function myFunction() {
-	document.getElementById('creditos').style.display = 'inline-block';
+	var creditos = document.getElementById('creditos').style.display = 'inline-block';
 	document.getElementById('backlight').style.display = 'inline-block';
+
+	const body = document.body;
+	if (creditos = 'inline-block'){
+		body.style.position = 'fixed';
+	}
 };
 
 function myFunction2() {
+	var ffDisplay = document.getElementById('fashionfilm').style.display = 'inline-block';
 	document.getElementById('backlight2').style.display = 'inline-block';
-	document.getElementById('fashionfilm').style.display = 'inline-block';
 	document.getElementById('closebtn_fashionfilm').style.display = 'inline-block';
+
+	const body = document.body;
+	if (ffDisplay = 'inline-block'){
+  	body.style.position = 'fixed';
+	}
+
+	var windowHeight = window.innerHeight;
+	var videoHeight = document.getElementById("fashionfilm").offsetHeight;
+	var videoPosY = (windowHeight-videoHeight)/2;
+	document.getElementById("fashionfilm").style.top = videoPosY + "px";
 };
 
 function myFunction3() {
