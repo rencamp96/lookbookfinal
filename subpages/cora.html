@@ -8,121 +8,131 @@
   <link rel="stylesheet" type="text/css" href="../css/subpages.css">
   <script src="../js/main.js"></script>
   <style>
-  #loader-clean {
-    position: fixed;
-    z-index: 99;
-    min-width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: glitch-anim-2 0.5s infinite;
-  }
-
-  #loader-clean.hidden {
-    animation: fadeOut 1s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes fadeOut {
-    100% {
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
-
-  @keyframes glitch-anim-2 {
-
-    0%,
-    100% {
-      opacity: 1;
-      transform: translate3d(calc(-1 * var(--gap-horizontal)), 0, 0);
-      -webkit-clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
-      clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
+    #loader-clean {
+      position: fixed;
+      z-index: 99;
+      min-width: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    10% {
-      -webkit-clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
-      clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
+    #loader-clean-anim {
+      position: fixed;
+      z-index: 5000;
+      min-width: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: glitch-anim-2 0.5s infinite;
     }
 
-    15% {
-      -webkit-clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);
-      clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);
+    #loader-clean.hidden {
+      animation: fadeOut 1s;
+      animation-fill-mode: forwards;
     }
 
-    17% {
-      -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
-      clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+    @keyframes fadeOut {
+      100% {
+        opacity: 0;
+        visibility: hidden;
+      }
     }
 
-    19% {
-      -webkit-clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);
-      clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);
-    }
+    @keyframes glitch-anim-2 {
 
-    33% {
-      -webkit-clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);
-      clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);
-    }
+      0%,
+      100% {
+        opacity: 1;
+        transform: translate3d(calc(-1 * var(--gap-horizontal)), 0, 0);
+        -webkit-clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
+        clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
+      }
 
-    35% {
-      -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
-      clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
-    }
+      10% {
+        -webkit-clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
+        clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
+      }
 
-    40% {
-      -webkit-clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);
-      clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);
-    }
+      15% {
+        -webkit-clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);
+        clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);
+      }
 
-    45% {
-      -webkit-clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);
-      clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);
-    }
+      17% {
+        -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+        clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+      }
 
-    49% {
-      -webkit-clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
-      clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
-    }
+      19% {
+        -webkit-clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);
+        clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);
+      }
 
-    50% {
-      -webkit-clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);
-      clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);
-    }
+      33% {
+        -webkit-clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);
+        clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);
+      }
 
-    55% {
-      -webkit-clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
-      clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
-    }
+      35% {
+        -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
+        clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
+      }
 
-    60% {
-      -webkit-clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
-      clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
-    }
+      40% {
+        -webkit-clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);
+        clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);
+      }
 
-    70% {
-      -webkit-clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);
-      clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);
-    }
+      45% {
+        -webkit-clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);
+        clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);
+      }
 
-    80% {
-      -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
-      clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
-    }
+      49% {
+        -webkit-clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
+        clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);
+      }
 
-    90% {
-      -webkit-clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);
-      clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);
+      50% {
+        -webkit-clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);
+        clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);
+      }
+
+      55% {
+        -webkit-clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
+        clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);
+      }
+
+      60% {
+        -webkit-clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+        clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+      }
+
+      70% {
+        -webkit-clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);
+        clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);
+      }
+
+      80% {
+        -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+        clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+      }
+
+      90% {
+        -webkit-clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);
+        clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);
+      }
     }
-  }
-</style>
+  </style>
 
 </head>
 
 <body>
-  <div id="loader-clean">
-    <img id="loader-clean" src="../assets/loader.gif">
+  <div id="loader-clean" style="background-image: url(../assets/loader.gif); background-position: center;">
+    <img id="loader-clean-anim" src="../assets/portada.jpg">
   </div>
 
   <div id="container">
@@ -189,7 +199,8 @@
         <img class="looks" src="" style="width:38vh; height:auto;">
       </div>
 
-      <div id="video-holder2"><video id="video2" src="../assets/coleccion1_1.mp4" type="video/mp4" playsinline autoplay muted loop>
+      <div id="video-holder2"><video id="video2" src="../assets/coleccion1_1.mp4" type="video/mp4" playsinline autoplay
+          muted loop>
       </div>
 
       <div class="look4">
@@ -227,7 +238,8 @@
       <div id="degradado3_2"></div>
       <div id="sombra_final"></div>
 
-      <div id="video-holder3"><video id="video3" src="../assets/coleccion1_2.mp4" type="video/mp4" playsinline autoplay muted loop>
+      <div id="video-holder3"><video id="video3" src="../assets/coleccion1_2.mp4" type="video/mp4" playsinline autoplay
+          muted loop>
       </div>
 
     </div>
