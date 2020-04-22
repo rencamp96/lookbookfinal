@@ -1075,7 +1075,7 @@ hr.new1 {
   color: #e8e8e8;
 }
 
-.info_coleccion1{
+#info_coleccion1{
   display: inline-block;
   padding: 1.5vh;
   background-color: #94ab9e;
@@ -1089,7 +1089,7 @@ hr.new1 {
   z-index: 50000 !important;
   font-size: 1.7vh;
 } @media (orientation: portrait){
-  .info_coleccion1{
+  #info_coleccion1{
     top: 58vh;
     left: 2vh;
     width: 32vh;
@@ -1113,7 +1113,7 @@ hr.new1 {
   }
 }
 
-.video_holder{
+#video_holder{
   display: inline-block;
   padding: 1.5vh;
   background-color: #94ab9e;
@@ -1124,10 +1124,10 @@ hr.new1 {
   border: 1px solid #e8e8e8;
   height: 52.5vh;
   width: 69.5vh;
-  z-index: 10;
+  z-index: 10 !important;
   font-size: 1.7vh;
 } @media (orientation: portrait){
-  .video_holder{
+  #video_holder{
     top: 6vh;
     left: 6.5vh;
     width: 31.5vh;
