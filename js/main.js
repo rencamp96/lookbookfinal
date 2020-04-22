@@ -36,6 +36,32 @@ function myFunction2() {
 	document.getElementById('closebtn_fashionfilm').style.display = 'inline-block';
 };
 
+function myFunction3() {
+	document.getElementById('look2').style.zIndex = 10;
+	document.getElementById('look3').style.zIndex = 0;
+	document.getElementById('look1').style.zIndex = 5;
+};
+
+function myFunction4() {
+	document.getElementById('look2').style.zIndex = 5;
+	document.getElementById('look3').style.zIndex = 10;
+	document.getElementById('look1').style.zIndex = 0;
+};
+
+function myFunction5() {
+	document.getElementById('look1').style.zIndex = 11;
+};
+
+function myFunction6() {
+	document.getElementById('look5').style.zIndex = 10;
+	document.getElementById('look6').style.zIndex = 5;
+};
+
+function myFunction7() {
+	document.getElementById('look6').style.zIndex = 10;
+	document.getElementById('look5').style.zIndex = 5;
+};
+
 window.addEventListener("load", () => {
 	init();
 });

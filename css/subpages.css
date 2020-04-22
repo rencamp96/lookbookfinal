@@ -1232,7 +1232,7 @@ hr.new1 {
 /* -----------   seccion 2   ----- -----*/
 /* ____________________________________ */
 
-.look1{
+#look1{
   left: 127vh;
   top: 24.5vh;
   display: inline-block;
@@ -1245,7 +1245,7 @@ hr.new1 {
   font-size: 1.7vh;
   padding-bottom: 1vh;
 } @media (orientation: portrait){
-  .look1 {
+  #look1 {
     left: 48vh;
     top: 21.5vh;
   }
@@ -1267,7 +1267,7 @@ hr.new1 {
   }
 }
 
-.look2{
+#look2{
   left: 133vh;
   top: 17.25vh;
   display: inline-block;
@@ -1280,13 +1280,13 @@ hr.new1 {
   font-size: 1.7vh;
   padding-bottom: 1vh;
 } @media (orientation: portrait) {
-  .look2 {
+  #look2 {
     left: 55vh;
     top: 13.75vh;
   }
 }
 
-.look3{
+#look3{
   left: 139vh;
   top: 10vh;
   display: inline-block;
@@ -1299,7 +1299,7 @@ hr.new1 {
   font-size: 1.7vh;
   padding-bottom: 1vh;
 } @media (orientation: portrait){
-  .look3 {
+  #look3 {
     left: 62vh;
     top: 6vh;
   }
@@ -1402,7 +1402,7 @@ hr.new1 {
   }
 }
 
-.look5{
+#look5{
   display: inline-block;
   background-color: #94ab9e;
   position: absolute;
@@ -1415,13 +1415,13 @@ hr.new1 {
   font-size: 1.7vh;
   padding-bottom: 1vh;
 } @media (orientation: portrait){
-  .look5{
+  #look5{
     left: 182vh;
     top: 7vh;
   }
 }
 
-.look6{
+#look6{
   display: inline-block;
   background-color: #94ab9e;
   position: absolute;
@@ -1434,7 +1434,7 @@ hr.new1 {
   font-size: 1.7vh;
   padding-bottom: 1vh;
 } @media (orientation: portrait){
-  .look6{
+  #look6{
     left: 218vh;
     top: 14.5vh;
   }
