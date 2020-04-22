@@ -1086,7 +1086,7 @@ hr.new1 {
   border: 1px solid #e8e8e8;
   width: 62vh;
   height: 25vh;
-  z-index: 500 !important;
+  z-index: 500!important;
   font-size: 1.7vh;
 } @media (orientation: portrait){
   #info_coleccion1{
