@@ -154,7 +154,6 @@ p {
 	font-family: MontserratMedium;
   font-size: .66vw;
   line-height: 1.05vw;
-  /* text-align: justify; */
 } @media only screen and (max-width: 1060px) {
   p {
     font-size: 1vw;
