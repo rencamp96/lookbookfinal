@@ -112,8 +112,8 @@ h6 {
 p {
 	color: #303030;
 	font-family: MontserratMedium;
-  font-size: 1.7vh;
-  line-height: 2vw;
+  font-size: 1.6vh;
+  line-height: 3.5vh;
   overflow-wrap: break-word;
   white-space: initial;
   display: block;
@@ -373,9 +373,9 @@ hr.new1 {
 }
 
 #info2 {
-  width: 40vh;
+  width: 35vh;
   position: absolute;
-  top: 24.5vh;
+  top: 15vh;
   left: 90vh;
   z-index: 10;
   font-size: .9vw;
@@ -1099,7 +1099,7 @@ hr.new1 {
   background-color: #94ab9e;
   position: absolute;
   left: 107vh;
-  top: 58vh;
+  top: 61vh;
   color: #e8e8e8;
   border: 1px solid #e8e8e8;
   width: 62vh;
@@ -1142,7 +1142,7 @@ hr.new1 {
   border: 1px solid #e8e8e8;
   height: 66vh;
   width: 88.5vh;
-  z-index: 10 !important;
+  z-index: -100 !important;
   font-size: 1.7vh;
 } @media (orientation: portrait){
   #video_holder{
@@ -1182,7 +1182,7 @@ hr.new1 {
   left: 7.5vh;
   width: 70vh;
   height: 55vh;
-  z-index: 5;
+  z-index: -500;
 } @media (orientation: portrait){
   #video1_sombra{
     height: 58vh;
