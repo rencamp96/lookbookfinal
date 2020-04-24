@@ -77,7 +77,7 @@ function myFunction2() {
 
 function myFunction2Close(){
 	var vid = document.getElementById("fashionfilm");
-	vid.pause();
+	vid.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 
 	var ffDisplay2 = document.getElementById('fashionfilm').style.display='none';
 	document.getElementById('backlight2').style.display='none';

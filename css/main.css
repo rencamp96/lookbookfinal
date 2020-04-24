@@ -131,6 +131,7 @@ h5 {
 } @media only screen and (max-width: 600px) {
   h5 {
     margin-bottom: 7vw;
+    font-size: 6vh;
   }
 }
 
@@ -1325,19 +1326,21 @@ hr.new1 {
   z-index: 50101;
   left: 19vw;
   width: 62vw;
-  height: auto;
+  height: 40vw;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 } @media only screen and (max-width: 1060px){
   #fashionfilm{
     left: 15vw;
     width: 70vw;
+    height: 50vw;
   }
 } @media only screen and (max-width: 600px) {
   #fashionfilm{
     position: fixed;
-    left: 12vw;
-    width: 76vw;
+    left: 5vw;
+    width: 90vw;
+    height: 70vw;
   }
 }
 
