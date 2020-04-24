@@ -112,21 +112,15 @@ h6 {
 p {
 	color: #303030;
 	font-family: MontserratMedium;
-  font-size: 1.6vh;
-  line-height: 3.5vh;
+  font-size: 1.5vh;
+  line-height: 3.8vh;
   overflow-wrap: break-word;
   white-space: initial;
   display: block;
   overflow: hidden
-} @media only screen and (max-width: 1060px) {
+} @media (orientation: portrait){
   p {
-    font-size: 1vw;
-    line-height: 2vw;
-  }
-} @media only screen and (max-width: 600px) {
-  p {
-    font-size: 1.72vw;
-    line-height: 3.4vw;
+    font-size: 1.3vh;
   }
 }
 
@@ -342,6 +336,13 @@ hr.new1 {
   background-color: #94ab9e;
 }
 
+.header2 {
+  margin-right: 0;
+  border-style:groove;
+  padding-left: 1vh;
+  background-color: #94ab9e;
+}
+
 
 /* //////////////////////////////////////////////
 //////          diseño de párrafo          //////
@@ -373,28 +374,20 @@ hr.new1 {
 }
 
 #info2 {
-  width: 35vh;
+  width: 63vh;
   position: absolute;
-  top: 15vh;
-  left: 90vh;
+  left: 104.5vh;
+  top: 17.5vh;
   z-index: 10;
-  font-size: .9vw;
+  font-size: 1.7vh;
   border: 1px solid #e8e8e8;
   background-color: #94ab9e;
-  padding: .5vw .7vw 0vw .5vw;
-} @media only screen and (max-width: 1060px){
+  padding: 1.5vh 1.5vh 0vw 1.5vh;
+} @media (orientation: portrait){
   #info2 {
-    top: 44vw;
-    left: 48vw;
-    width: 24vw;
-  }
-} @media only screen and (max-width: 600px) {
-  #info2 {
-    top: 137vw;
-    left: 6.5vw;
-    width: 34vw;
-    z-index: 10;
-    padding: 1vw 1.5vw 0vw 1vw;
+    left: 46vh;
+    top: 18vh;
+    width: 30vh;
   }
 }
 
@@ -1052,13 +1045,13 @@ hr.new1 {
   opacity: .9;
   position: absolute;
   display: none;
-  height: 3vh;
+  height: 2vh;
   width:auto;
 } @media (orientation: portrait){
   .scroll_gif{
     display: inline-block;
-    top: 81vh;
-    left: 34.5vh;
+    top: 82vh;
+    left: 39vh;
   }
 }
 
@@ -1079,12 +1072,12 @@ hr.new1 {
   cursor: pointer;
   position: absolute;
   top: 42vh;
-  left: 342vh;
+  left: 402vh;
   font-family: MontserratMedium;
 } @media (orientation: portrait){
   .regresar2{
     top: 39vh;
-    left: 264vh;
+    left: 313vh;
   }
 }
 
@@ -1098,8 +1091,8 @@ hr.new1 {
   padding: 1.5vh;
   background-color: #94ab9e;
   position: absolute;
-  left: 80vh;
   top: 61vh;
+  left: 80vh;
   color: #e8e8e8;
   border: 1px solid #e8e8e8;
   width: 62vh;
@@ -1109,22 +1102,23 @@ hr.new1 {
 } @media (orientation: portrait){
   #info_coleccion1{
     top: 58vh;
-    left: 2vh;
+    left: 3vh;
     width: 32vh;
     height: 16vh;
+    font-size: 1.7vh;
   }
 }
 
 #video_coleccion1{
   position: absolute;
   z-index: -4;
-  height: 61vh;
+  height: 57vh;
   width: auto;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 } @media (orientation: portrait){
   #video_coleccion1{
-    height: 58vh;
+    height: 43vh;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
@@ -1140,16 +1134,16 @@ hr.new1 {
   left: 10vh;
   color: #e8e8e8;
   border: 1px solid #e8e8e8;
-  height: 66vh;
-  width: 88.5vh;
+  height: 62vh;
+  width: 83vh;
   z-index: -100 !important;
   font-size: 1.7vh;
 } @media (orientation: portrait){
   #video_holder{
     top: 6vh;
-    left: 6.5vh;
-    width: 31.5vh;
-    height: 54vh;
+    left: 5vh;
+    width: 32.25vh;
+    height: 46vh;
     overflow: hidden;
   }
 }
@@ -1157,20 +1151,37 @@ hr.new1 {
 
 
 #info_coleccion1_sombra{
-  background-color: #566def;
+  background-color: #f867e9;
   position: absolute;
-  left: 48vh;
-  top: 62.5vh;
+  left: 83vh;
+  top: 58.5vh;
   width: 65vh;
-  height: 26.5vh;
+  height: 28vh;
   z-index: 9;
 } @media (orientation: portrait){
   #info_coleccion1_sombra{
     z-index: 12;
     top: 60vh;
-    left: 4.2vh;
-    width: 35vh;
-    height: 19vh;
+    left: 5vh;
+    width: 35.5vh;
+    height: 19.5vh;
+  }
+}
+
+#info_coleccion1_sombra2{
+  background-color: #566def;
+  position: absolute;
+  left: 107vh;
+  top: 15vh;
+  width: 66vh;
+  height: 33.5vh;
+  z-index: 9;
+} @media (orientation: portrait){
+  #info_coleccion1_sombra2{
+    left: 48vh;
+    top: 15.5vh;
+    width: 33.5vh;
+    height: 49.5vh;
   }
 }
 
@@ -1178,17 +1189,17 @@ hr.new1 {
 #video1_sombra{
   background-color: #52ff60;
   position: absolute;
-  top: 13vh;
+  top: 7.5vh;
   left: 7.5vh;
-  width: 70vh;
-  height: 55vh;
+  width: 86vh;
+  height: 65vh;
   z-index: -500;
 } @media (orientation: portrait){
   #video1_sombra{
-    height: 58vh;
+    height: 49vh;
     width: 35vh;
     top: 4vh;
-    left: 4.2vh;
+    left: 3vh;
   }
 }
 
@@ -1230,15 +1241,16 @@ hr.new1 {
 #videoStatic1 {
   position: absolute;
   z-index: -1000!important;
-  top: 17vh;
-  left: 65vh;
-  height: 68vh;
+  top: 10vh;
+  left: 101.5vh;
+  height: 73.5vh;
   width: auto;
   overflow-x: hidden !important;
 } @media (orientation: portrait) {
   #videoStatic1 {
   top: 9vh;
-  left: 21.5vh;
+  left: 34vh;
+  height: 65vh;
   z-index: -500 !important;
   }
 }
@@ -1251,7 +1263,7 @@ hr.new1 {
 /* ____________________________________ */
 
 #look1{
-  left: 187vh;
+  left: 182vh;
   top: 24.5vh;
   display: inline-block;
   padding: 1.5vh;
@@ -1264,7 +1276,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   #look1 {
-    left: 48vh;
+    left: 88vh;
     top: 21.5vh;
   }
 }
@@ -1274,19 +1286,19 @@ hr.new1 {
   display: inline-block;
   position: absolute;
   z-index: -10;
-  left: 202vh;
+  left: 197vh;
   top: 7.5vh;
   width: 41vh;
   height: 61vh;
 } @media (orientation: portrait) {
   .look1_sombra{
-    left: 64.5vh;
+    left: 104.5vh;
     top: 4vh;
   }
 }
 
 #look2{
-  left: 193vh;
+  left: 188vh;
   top: 17.25vh;
   display: inline-block;
   padding: 1.5vh;
@@ -1299,13 +1311,13 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait) {
   #look2 {
-    left: 55vh;
+    left: 95vh;
     top: 13.75vh;
   }
 }
 
 #look3{
-  left: 199vh;
+  left: 194vh;
   top: 10vh;
   display: inline-block;
   padding: 1.5vh;
@@ -1318,7 +1330,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   #look3 {
-    left: 62vh;
+    left: 102vh;
     top: 6vh;
   }
 }
@@ -1327,14 +1339,14 @@ hr.new1 {
   position: absolute;
   overflow: hidden;
   top: 57vh;
-  left: 217vh;
+  left: 212vh;
   /* border: 1px solid #e8e8e8; */
   width: 67.3vh;
   height: 28vh;
   z-index: -5;
 } @media (orientation: portrait){
   #video-holder2{
-    left: 80vh;
+    left: 120vh;
     top: 54vh;
   }
 }
@@ -1365,7 +1377,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   .look4{
-    left: 126vh;
+    left: 166vh;
     top: 7vh;
   }
 }
@@ -1374,7 +1386,7 @@ hr.new1 {
   display: inline-block;
   background-color: #94ab9e;
   position: absolute;
-  left: 247vh;
+  left: 244vh;
   top: 15vh;
   color: #e8e8e8;
   border: 1px solid #e8e8e8;
@@ -1384,7 +1396,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   .look7{
-    left: 126vh;
+    left: 148.5vh;
     top: 7vh;
   }
 }
@@ -1395,13 +1407,13 @@ hr.new1 {
   background-image: linear-gradient( #f867e9, #f867e9, #303030);
   z-index: -5000;
   top: 0;
-  left: 190vh;
+  left: 250vh;
   width: 18vh;
   height: 50vh;
   overflow-x: hidden !important;
 } @media (orientation: portrait){
   #degradado2{
-    left: 113vh;
+    left: 153vh;
   }
 }
 
@@ -1415,7 +1427,7 @@ hr.new1 {
   overflow-x: hidden !important;
 } @media (orientation: portrait){
   #videoStatic2 {
-    left: 133vh;
+    left: 173vh;
     top: 25vh;
   }
 }
@@ -1434,7 +1446,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   #look5{
-    left: 182vh;
+    left: 222vh;
     top: 7vh;
   }
 }
@@ -1453,7 +1465,7 @@ hr.new1 {
   padding-bottom: 1vh;
 } @media (orientation: portrait){
   #look6{
-    left: 218vh;
+    left: 258vh;
     top: 14.5vh;
   }
 }
@@ -1468,7 +1480,7 @@ hr.new1 {
   z-index: -100;
 } @media (orientation: portrait){
   #sombra_final{
-    left: 177vh;
+    left: 217vh;
     top: 4vh;
   }
 }
@@ -1485,7 +1497,7 @@ hr.new1 {
   overflow-x: hidden !important;
 } @media (orientation: portrait){
   #degradado3{
-    left: 265vh;
+    left: 305vh;
   }
 }
 
@@ -1501,7 +1513,7 @@ hr.new1 {
   overflow-x: hidden !important;
 } @media (orientation: portrait){
   #degradado3_2{
-    left: 257vh;
+    left: 297vh;
   }
 }
 
@@ -1516,7 +1528,7 @@ hr.new1 {
   z-index: -15;
 } @media (orientation: portrait){
   #video-holder3{
-    left: 243vh;
+    left: 283vh;
     top: 7vh;
   }
 }
@@ -1538,11 +1550,11 @@ hr.new1 {
   position: absolute;
   left: 0vw;
   top: 0;
-  width: 544vh;
+  width: 460vh;
   height: 100vh;
   z-index: -10000;
 } @media (orientation: portrait){
   #fondo_col{
-    width: 317vh;
+    width: 354vh;
   }
 }
