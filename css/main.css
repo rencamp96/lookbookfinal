@@ -1,21 +1,7 @@
-@font-face {
-    font-family: MontserratRegular;
-    src: url(fonts/Montserrat-Regular.ttf)
-}
-
-@font-face {
-    font-family: MontserratMedium;
-    src: url(fonts/Montserrat-Medium.ttf)
-}
-
-@font-face {
-    font-family: MontserratLight;
-    src: url(fonts/Montserrat-Light.ttf)
-}
-
 body,
 html {
-    font-family: MontserratRegular;
+    font-family: 'Montserrat';
+    font-weight: 400;
     color: #e8e8e8;
     margin: 0;
     height: 100%;
@@ -45,7 +31,8 @@ video::-internal-media-controls-overlay-cast-button {
 
 h1 {
     color: #e8e8e8;
-    font-family: MontserratRegular;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: 4.5vw
 }
 
@@ -63,7 +50,8 @@ h1 {
 
 h2 {
     color: #e8e8e8;
-    font-family: MontserratLight;
+    font-family: 'Montserrat';
+    font-weight: 300;
     font-size: 1.5vw;
     line-height: 1
 }
@@ -83,7 +71,8 @@ h2 {
 
 h3 {
     color: #e8e8e8;
-    font-family: MontserratRegular;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: 7vh;
     line-height: 1
 }
@@ -97,7 +86,8 @@ h3 {
 
 h4 {
     color: #303030;
-    font-family: MontserratMedium;
+    font-family: 'Montserrat';
+    font-weight: 500;
     font-size: 1.2vw;
     line-height: .5;
     margin-bottom: 0;
@@ -142,7 +132,8 @@ h5 {
 
 h6 {
     color: #e8e8e8;
-    font-family: MontserratMedium;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: .6vw;
     line-height: 1.7
 }
@@ -161,7 +152,8 @@ h6 {
 
 p {
     color: #303030;
-    font-family: MontserratMedium;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: .66vw;
     line-height: 1.05vw
 }
@@ -463,7 +455,8 @@ hr.new1 {
     cursor: pointer;
     position: absolute;
     right: 1.4vw;
-    font-family: MontserratMedium
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 @media only screen and (max-width:1060px) {
@@ -515,7 +508,8 @@ hr.new1 {
     top: 1vw;
     right: 1.4vw;
     z-index: 100;
-    font-family: MontserratMedium
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 @media only screen and (max-width:1060px) {
@@ -543,7 +537,8 @@ hr.new1 {
 }
 
 #closebtn_fashionfilm {
-    font-family: MontserratLight;
+    font-family: 'Montserrat';
+    font-weight: 300;
     display: none;
     float: right;
     color: #e8e8e8;
@@ -1551,7 +1546,8 @@ hr.new1 {
     position: absolute;
     top: 42vh;
     left: 342vh;
-    font-family: MontserratMedium
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 @media (orientation:portrait) {
