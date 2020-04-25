@@ -1071,19 +1071,44 @@ hr.new1 {
   font-size: 1.5vh;
   cursor: pointer;
   position: absolute;
-  top: 42vh;
+  top: 65vh;
   left: 402vh;
   font-family: MontserratMedium;
 } @media (orientation: portrait){
   .regresar2{
-    top: 39vh;
-    left: 313vh;
+    left: 305vh;
+    top: 62vh;
   }
 }
 
 .regresar2:hover {
   background-color: #94ab9e;
   color: #e8e8e8;
+}
+
+.drive{
+  color: #52ff60;
+  text-align: center;
+  display: inline-block;
+  font-size: 3vh;
+  line-height: 1.7;
+  cursor: pointer;
+  position: absolute;
+  top: 41vh;
+  left: 402vh;
+  /* text-decoration: none; */
+  font-family: MontserratMedium;
+} @media (orientation: portrait){
+  .drive{
+    width:50vh;
+    top: 37vh;
+    left: 302vh;
+    font-size: 3vh;
+  }
+}
+
+.drive:hover {
+  color: #f867e9;
 }
 
 #info_coleccion1{
@@ -1492,7 +1517,7 @@ hr.new1 {
   z-index: -5000;
   top: 40vh;
   left: 402vh;
-  width: 20vh;
+  width: 22vh;
   height: 60vh;
   overflow-x: hidden !important;
 } @media (orientation: portrait){
